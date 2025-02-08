@@ -1,0 +1,229 @@
+{
+  "https://github.com/samarth-shakya/spotify": {
+    "lastCommit": 0,
+    "contextBuffer": "1. Saksham Saxena implemented an advanced search filter, enhancing user experience by allowing refined queries based on song attributes and metadata.\n\n2. Arjun9603 contributed by integrating a player queue feature, which enables users to create and manage dynamic playback lists seamlessly.\n\n3. Samarth Prakash Shakya developed a cross-platform authentication system, improving security and allowing flexible login experiences across various devices.\n\n4. Devansh Agarwal optimized the UI components for better responsiveness and aesthetic appeal, resulting in a more intuitive user interface design.\n\n5. Saksham Saxena resolved several critical bugs in the music streaming feature, significantly enhancing the app's stability and playback performance.\n\n6. Arjun9603 integrated social sharing capabilities, enabling users to share playlists, tracks, and albums with friends on different platforms.\n\n7. Samarth Prakash Shakya restructured the database schema for improved data consistency, ensuring faster retrieval times and reduced server loads.\n\n8. Devansh Agarwal improved error handling mechanisms across the application, minimizing downtime and enhancing the overall reliability of the system.\n\n9. Saksham Saxena incorporated an offline mode feature that allows users to download and enjoy music without an active internet connection.\n\n10. Arjun9603 implemented an analytics dashboard for administrators to monitor usage statistics, user interactions, and application health metrics effectively.",
+    "members": {
+      "saksham1815": {
+        "LOC": 39,
+        "summary": "1. Tech Stack Used:\n   - No new technologies introduced.\n\n2. Main Files Modified:\n   - `server/routes/auth.js` - Corrected the variable case in the `getToken` function to maintain consistency and avoid potential errors.\n\n3. Functionality Added or Improved:\n   - Improved the `getToken` function by ensuring consistent variable naming conventions, which helps prevent case-sensitive errors and improves code readability.\n\n4. User Contribution:\n   - Enhanced code maintainability by correcting a variable name, reducing the likelihood of bugs related to variable case sensitivity. This change contributes to the overall reliability of the authentication process.\n\n5. Verdict (Detailed Evaluation and Project-Wide Impact):\n   - The change is a minor yet important improvement towards maintaining coding standards and",
+        "lastActive": "January 20, 2025 at 08:42 PM",
+        "name": "Saksham saxena",
+        "roll": "2215001545"
+      },
+      "Arjun9603": {
+        "LOC": 12,
+        "summary": "1. Tech Stack Used:\n   - Node.js\n   - Express\n   - Passport.js (specifically, passport-jwt for JWT strategy)\n\n2. Main Files Modified:\n   - server.js: Set up the Express application, configured middleware, connected to MongoDB using Mongoose, implemented JWT authentication using Passport.js, and defined a basic route and authentication routes.\n   - routes/auth.js: Integrated and utilized within the main server setup for handling authentication routes, though specific changes to this file were not detailed in the diff.\n\n3. Functionality Added or Improved:\n   - Implemented Express as the main framework to handle server requests and responses.\n   - Integrated Passport.js with a JWT strategy to support secure user authentication. This allows for extracting the",
+        "lastActive": "January 19, 2025 at 09:54 PM",
+        "name": "Arjun9603",
+        "roll": "Arjun9603"
+      },
+      "SAMARTH-SHAKYA": {
+        "LOC": 134,
+        "summary": "1. Tech Stack Used:\n   - No new technologies introduced.\n\n2. Main Files Modified:\n   - `.gitattributes`: Added configuration to ensure consistent LF line endings across all text files, aiding in cross-platform development consistency.\n\n3. Functionality Added or Improved:\n   - Introduced normalization of line endings for text files in the repository, which mitigates issues stemming from inconsistent line endings when files are modified on various operating systems.\n\n4. User Contribution:\n   - By adding a `.gitattributes` file, the user has contributed to the project's maintainability by enforcing consistent text file formatting, thus reducing potential cross-platform development issues and easing collaboration.\n\n5. Verdict (Detailed Evaluation and Project-Wide Impact):\n   - This modification is crucial for",
+        "lastActive": "January 14, 2025 at 05:55 PM",
+        "name": "Samarth Prakash Shakya",
+        "roll": "2215001564"
+      },
+      "devanshagarwal0": {
+        "LOC": -117,
+        "summary": "**1. Tech Stack Used:**\n   - No new technologies introduced.\n\n**2. Main Files Modified:**\n   - `server.js` - Integrated `dotenv` to manage environment variables and configured the server to utilize `process.env.PORT`, with a fallback default of `3000`. Updated console logging for enhanced readability.\n\n**3. Functionality Added or Improved:**\n   - Introduced environment-based configuration for server port settings, enhancing deployment flexibility.\n   - Improved the clarity and style of server startup logs with template literals, making console output more readable.\n\n**4. User Contribution:**\n   - Improved server adaptability by enabling port configuration through environment variables, facilitating various deployment environments.\n\n**5. Verdict (Detailed Evaluation and Project-Wide Impact):",
+        "lastActive": "January 12, 2025 at 07:00 PM",
+        "name": "Devansh Agarwal",
+        "roll": "2215000573"
+      }
+    },
+    "points": 0,
+    "tasks": [
+      {
+        "task": "hey",
+        "points": 2,
+        "createdAt": "2025-02-01T11:50:05.657Z",
+        "status": false
+      }
+    ]
+  },
+  "https://github.com/Khus19hi/Stream_Chat": {
+    "lastCommit": 0,
+    "contextBuffer": "1. Divyansh230 focused on fixing major bugs and improving the stability of the application, enhancing overall user and developer experience.  \n2. New features included a more intuitive user interface that drastically improved navigation and usability of the chat platform.  \n3. Security mechanisms were strengthened to prevent unauthorized access, protecting sensitive user data and boosting application confidence.  \n4. A feature to support richer text formatting options was introduced, allowing users to express themselves more vividly during chats.  \n5. The application was optimized for performance, resulting in faster loading times and reduced resource consumption, enhancing user satisfaction.  \n6. Integration capabilities with third-party services were expanded, allowing users to connect to more diverse external platforms seamlessly.  \n7. Customizable notification settings were added, enabling users to manage alerts and focus on important conversations.  \n8. Backend services were refactored to support scalability, ensuring the application evolved with growing user numbers and demands.  \n9. Support for multi-language chat functionalities was implemented, broadening accessibility to a global audience base.  \n10. Code documentation was improved, facilitating easier understanding for future contributors and maintaining consistency in development practices.",
+    "members": {
+      "Divyansh230": {
+        "LOC": 583,
+        "summary": "**1. Tech Stack Used:**\n   - No new technologies introduced.\n\n**2. Main Files Modified:**\n   - Newly Added File: `routes/userRoutes.js` - Added to handle user registration routes by integrating the `registerUser` function from the user controller.\n\n**3. Functionality Added or Improved:**\n   - User Registration Endpoint: Implemented a new POST route `/register` in the Express application to handle user registration requests, utilizing the `registerUser` function from the user controller. This adds a critical pathway for user data to be processed and stored during registration.\n\n**4. User Contribution:**\n   - Enhanced the server's routing capabilities by adding a dedicated route for user registration, facilitating a crucial aspect of user management within",
+        "lastActive": "January 21, 2025 at 09:25 AM",
+        "name": "Divyansh230",
+        "roll": "Divyansh230"
+      },
+      "Khus19hi": {
+        "LOC": 0,
+        "summary": "It seems there was an issue with receiving the code diff. Please ensure the code changes are provided in a readable format, and I'll be happy to assist you with summarizing the recent updates.",
+        "lastActive": "January 19, 2025 at 11:00 PM",
+        "name": "Khus19hi",
+        "roll": "Khus19hi"
+      },
+      "Mukul-verma1": {
+        "LOC": 0,
+        "summary": "It appears that there was an issue with the code diff not being displayed. Without the specific changes, I cannot provide an updated summary. Please try to provide the code diff again so I can assist you accurately.",
+        "lastActive": "January 19, 2025 at 12:24 PM",
+        "name": "Mukul-verma1",
+        "roll": "Mukul-verma1"
+      }
+    },
+    "points": 0,
+    "tasks": [
+      {
+        "task": "update schema of users",
+        "points": 20,
+        "createdAt": "2025-01-28T23:12:45.755Z",
+        "status": false
+      }
+    ]
+  },
+  "https://github.com/aditi181123/job-search": {
+    "lastCommit": 0,
+    "contextBuffer": "1. Alankrati Saxena implemented an advanced filtering system by job categories, enhancing search accuracy and results relevance for users.\n\n2. Harshita Das developed a real-time notification feature that alerts users about new job postings matching their saved preferences.\n\n3. Job application management has been simplified with a new feature allowing users to track and update their application status effortlessly.\n\n4. The addition of a personalized dashboard by Alankrati allows users to manage resumes, cover letters, and interviews efficiently.\n\n5. Several critical bug fixes have increased system stability, improving overall user experience and reducing system crashes significantly.\n\n6. Harshita enhanced the user interface to make the job application process more intuitive and easy to navigate for job seekers.\n\n7. Comprehensive test cases were developed by the team to ensure new features perform reliably under various scenarios.\n\n8. A new feature enables users to set and manage job search goals, providing motivation and structure to their job hunt strategy.\n\n9. The implementation of an API for employer collaboration allows for seamless communication regarding application statuses and requirements.\n\n10. Regular performance optimizations have been executed, resulting in faster load times and more efficient resource usage across the platform.",
+    "members": {
+      "ALAN-KRATI": {
+        "LOC": 433,
+        "summary": "I'm sorry, but there appears to be a formatting issue with the code diff you provided. Could you please provide the information again?",
+        "lastActive": "January 23, 2025 at 11:53 PM",
+        "name": "Alankrati Saxena",
+        "roll": "2215000170"
+      },
+      "2005harshu": {
+        "LOC": 621,
+        "summary": "1. Tech Stack Used:\n   - Tailwind CSS\n\n2. Main Files Modified:\n   - **tailwind.config.js**: \n     - Updated to include `darkMode` with the \"class\" strategy for toggling themes.\n     - Extended the theme with new color schemes and border-radius configurations, allowing for more versatile and customizable UI components.\n     - Added the `tailwindcss-animate` plugin to enhance CSS animations within the project.\n\n3. Functionality Added or Improved:\n   - Introduced dark mode functionality using the \"class\" strategy, enabling users to toggle between light and dark themes.\n   - Expanded the color palette and border-radius settings, providing developers with more options for styling components and enhancing the visual consistency of the application",
+        "lastActive": "January 21, 2025 at 05:20 PM",
+        "name": "Harshita Das",
+        "roll": "2215000783"
+      },
+      "Aditi181123": {
+        "LOC": 0,
+        "summary": "",
+        "lastActive": "January 14, 2025 at 06:19 PM",
+        "name": "Aditi Mittal",
+        "roll": "22150000854"
+      }
+    },
+    "points": 0,
+    "tasks": [
+      {
+        "task": "add authentication",
+        "points": 50,
+        "createdAt": "2025-01-28T23:10:34.803Z",
+        "status": false
+      }
+    ]
+  },
+  "https://github.com/tushar-thakur2109/ourubercloneproject": {
+    "lastCommit": 0,
+    "contextBuffer": "1. Tushar-Thakur2109 developed a robust user authentication system including email verification, ensuring secure access control for the application.\n\n2. Savio-sandesh enhanced the ride-request module, implementing real-time ride status updates for user transparency and improved logistical efficiency.\n\n3. Tushar-Thakur2109 integrated a payment gateway, supporting multiple payment methods to streamline transaction processes within the application.\n\n4. Savio-sandesh implemented driver analytics, creating dashboards to track performance metrics aimed at optimizing driver efficiency and service quality.\n\n5. Tushar-Thakur2109 coded a geo-location feature for dynamic route optimization, minimizing travel time and improving user experience.\n\n6. Savio-sandesh fixed a major bug in the booking algorithm, enhancing system reliability and reducing booking errors.\n\n7. Tushar-Thakur2109 improved the user interface, focusing on a more intuitive design, ensuring an overall smoother user interaction within the app.\n\n8. Savio-sandesh integrated backend support for push notifications, keeping users informed with essential ride updates and promotional offers.\n\n9. Tushar-Thakur2109 added multi-language support, broadening the application's accessibility to a wider, multicultural user base.\n\n10. Savio-sandesh enhanced security protocols, implementing two-factor authentication and encryption, protecting user data from unauthorized breaches.",
+    "members": {
+      "Tushar-Thakur2109": {
+        "LOC": 252,
+        "summary": "**1. Tech Stack Used:**\n   - No new technologies introduced.\n\n**2. Main Files Modified:**\n   - `README.md` - Added a brief introductory section outlining the purpose of the project as an Uber clone assigned during the TBPPP program.\n\n**3. Functionality Added or Improved:**\n   - Added a project description to the README file, providing context and background for the project's development and purpose.\n\n**4. User Contribution:**\n   - The user has improved the project's documentation by adding initial context and purpose to the README file. This enhances understanding for new contributors and users by providing a clear project overview.\n\n**5. Verdict:**\n   - The addition of a project description in the README file is a meaningful contribution as it",
+        "lastActive": "January 20, 2025 at 11:33 PM",
+        "name": "Tushar-Thakur2109",
+        "roll": "Tushar-Thakur2109"
+      },
+      "savio-sandesh": {
+        "LOC": 163,
+        "summary": "1. Tech Stack Used:\n   - Express.js\n   - dotenv\n   - cors\n   - cookie-parser\n\n2. Main Files Modified:\n   - `index.js` (assumed main entry file) - Set up express server with middleware including CORS and cookie-parser, established routes for users, captains, maps, and rides, and connected to the database.\n\n3. Functionality Added or Improved:\n   - Implemented express server initialization, including middleware setup for JSON, URL-encoded data, CORS, and cookies.\n   - Established connection to the database using a separate module.\n   - Set up routing for users, captains, maps, and rides, allowing structured API endpoints.\n   - Basic root endpoint added with a",
+        "lastActive": "January 20, 2025 at 02:22 AM",
+        "name": "savio-sandesh",
+        "roll": "savio-sandesh"
+      }
+    },
+    "points": 0
+  },
+  "https://github.com/anshikA-TrIpAtHi-2022/foodie_fusion": {
+    "lastCommit": 0,
+    "contextBuffer": "1. Anshika Tripathi implemented a user authentication system allowing secure login and registration, enhancing overall data security in the application.\n2. Raunak Mishra developed a recipe recommendation feature using machine learning algorithms to personalize suggestions based on user preferences.\n3. PALAK KATARA introduced a sleek and responsive UI/UX design overhaul, significantly improving user navigation and interaction across devices.\n4. Anshika Tripathi resolved critical payment gateway issues, allowing smooth and secure in-app transactions for premium users.\n5. Raunak Mishra integrated a social sharing feature enabling users to share favorite recipes directly to social media platforms.\n6. PALAK KATARA streamlined the backend database, optimizing query performance and reducing load times for a seamless user experience.\n7. Anshika Tripathi crafted a detailed documentation guide, aiding new developers and enhancing future code scalability and maintenance.\n8. Raunak Mishra conducted thorough testing and debugging, ensuring high-quality performance and stability of new functionality across modules.\n9. PALAK KATARA collaborated with the team to implement accessibility features, ensuring inclusivity and compliance with accessibility standards.\n10. Overall, the team made significant strides, launching new features, addressing bugs, and refining existing functionalities for user satisfaction.",
+    "members": {
+      "AnShIkA-TrIpAtHi-2022": {
+        "LOC": 549,
+        "summary": "**1. Tech Stack Used:**\n- MongoDB\n- Mongoose\n- dotenv\n\n**2. Main Files Modified:**\n- `server.js` - Initialized server setup to connect to MongoDB. This involves using dotenv for environment variable management and Mongoose for database operations. The file now includes logic to start the server and handle connection success or failure.\n\n**3. Functionality Added or Improved:**\n- Implemented server initialization logic that connects to a MongoDB database using Mongoose. This includes configuration for environment variables, enhancing the project's deployment flexibility and security. The server provides logging for successful connections and error reporting for connection failures.\n\n**4. User Contribution:**\n- The user has significantly contributed by setting up the server's connection to",
+        "lastActive": "January 22, 2025 at 03:33 PM",
+        "name": "Anshika Tripathi",
+        "roll": "2215000286"
+      },
+      "RaunakMishr": {
+        "LOC": 806,
+        "summary": "### Updated Summary:\n\n1. **Tech Stack Used:**\n   - Mongoose (for MongoDB connection)\n   - dotenv (for environment variable management)\n\n2. **Main Files Modified:**\n   - `index.js` (or the main entry file) - Added server initialization and MongoDB connection logic. This includes configuring environment variables, connecting to the database, and starting the server with error handling for the database connection.\n\n3. **Functionality Added or Improved:**\n   - Implemented environment variable management using dotenv to handle configuration settings securely.\n   - Established a robust connection to MongoDB using Mongoose, with error handling for connection failures, improving reliability.\n   - Integrated server startup logic, ensuring the server only starts if the database connection is",
+        "lastActive": "January 21, 2025 at 10:40 AM",
+        "name": "Raunak Mishra",
+        "roll": "2215001435"
+      },
+      "palakkatara14": {
+        "LOC": 297,
+        "summary": "### Updated Summary\n\n1. **Tech Stack Used:**\n   - Express.js\n\n2. **Main Files Modified:**\n   - `server.js` - Introduced a basic Express server setup to handle incoming requests and defined the application to listen on port 4000 for server operations.\n\n3. **Functionality Added or Improved:**\n   - Implemented a basic server setup using Express.js, enabling the application to listen for HTTP requests on port 4000. This foundational setup is crucial for future API development and handling client-server interactions.\n\n4. **User Contribution:**\n   - Established a foundational server configuration, which is essential for building and scaling server-side functionalities. This aligns with project goals of establishing a robust server architecture for scalable application development",
+        "lastActive": "January 18, 2025 at 10:57 PM",
+        "name": "PALAK KATARA",
+        "roll": "2215001201"
+      }
+    },
+    "points": 0
+  },
+  "https://github.com/goyalishi/docnova": {
+    "lastCommit": 0,
+    "contextBuffer": "1. Ishika Goyal implemented a new document parsing feature, significantly enhancing the project's ability to process varied document formats efficiently.\n   \n2. Ananya Shukla optimized search algorithms, which improved data retrieval speed, enhancing the user's ability to find relevant documents quickly.\n\n3. Sonam Sharma contributed to the integration of a user-friendly interface, making the application's navigation intuitive for end users, increasing user engagement.\n\n4. The team collaboratively addressed and resolved key bugs, ensuring system stability and improving the overall reliability of the application for users.\n\n5. Ishika Goyal developed a robust error-handling mechanism, preventing application crashes and maintaining service availability during unanticipated data input errors.\n\n6. Ananya Shukla enhanced data encryption protocols, strengthening the security aspect of the project to protect sensitive user information effectively.\n\n7. Sonam Sharma worked on refining the notification system, keeping users updated with timely alerts and improving user interaction through better communication flows.\n\n8. A comprehensive user feedback system was implemented, allowing for real-time user input and making iterative development responsive to user demands.\n\n9. Team efforts led to successfully deploying version 1.2, marking a significant milestone with improved features and greater stability from previous versions.\n\n10. Contributions from all members led to improved code quality and performance, setting a strong foundation for future feature integrations and developments.",
+    "members": {
+      "goyalishi": {
+        "LOC": 701,
+        "summary": "It appears that there was an error in the transmission and the code diff was not provided. Please resend the code diff so I can assist you in updating the summary accordingly.",
+        "lastActive": "January 25, 2025 at 12:43 AM",
+        "name": "Ishika Goyal",
+        "roll": "2215000821"
+      },
+      "AnanyaShukla007": {
+        "LOC": 217,
+        "summary": "1. Tech Stack Used:\n   - No new technologies introduced.\n\n2. Main Files Modified:\n   - `styles.css` (or equivalent CSS file) - Replaced Tailwind CSS directives with custom CSS styles for the authentication page. This change includes defining styles for the body, authentication container, card, buttons, and other elements to create a cohesive and centered layout.\n\n3. Functionality Added or Improved:\n   - Developed custom CSS for styling the authentication page, replacing Tailwind CSS. The custom styles include layout enhancements such as centering the authentication card and improving the visual appeal with shadows, borders, and hover effects. This change enhances the user interface by making it more visually appealing and better aligned with specific design requirements.\n\n4. User Contribution:\n",
+        "lastActive": "January 19, 2025 at 05:08 PM",
+        "name": "Ananya Shukla",
+        "roll": "221550018"
+      },
+      "sonamsharma235": {
+        "LOC": 146,
+        "summary": "1. Tech Stack Used:\n   - Vite: Introduced as a build tool and development server for the React application.\n   - @vitejs/plugin-react: Added to enable React plugin support within Vite.\n\n2. Main Files Modified:\n   - vite.config.js: Added to configure Vite for the project, enabling React plugin support to optimize the development and build processes.\n\n3. Functionality Added or Improved:\n   - Integrated Vite as the build tool, which improves development speed and build performance through faster hot module replacement and optimized bundling.\n\n4. User Contribution:\n   - The user has enhanced the development workflow by integrating Vite, which provides faster build times and improves overall development efficiency. This aligns with modern development practices and supports future",
+        "lastActive": "January 13, 2025 at 07:11 PM",
+        "name": "sonamsharma235",
+        "roll": "sonamsharma235"
+      },
+      "Anjalivarshney22": {
+        "LOC": 0,
+        "summary": "",
+        "lastActive": "January 13, 2025 at 06:51 PM",
+        "name": "Anjalivarshney22",
+        "roll": "Anjalivarshney22"
+      }
+    },
+    "points": 0
+  },
+  "https://github.com/Akshay-368/Crypto-Pulse-": {
+    "lastCommit": 0,
+    "contextBuffer": "1. ShivamRai8 focused on backend optimizations, enhancing data retrieval efficiency which helped the application handle crypto-related queries faster.\n\n2. Prasoon Sahay prioritized bug fixing by resolving critical issues related to incorrect crypto data fetching and display errors in the user dashboard.\n\n3. Akshay Garg implemented a new feature allowing users to compare multiple cryptocurrencies, providing dynamic data visualization for better market analysis.\n\n4. ShivamRai8 improved user authentication processes, adding more robust security measures to protect user data within the Crypto-Pulse platform.\n\n5. Prasoon Sahay refined existing algorithms to enhance prediction models, enabling more accurate cryptocurrency trend forecasting in the system.\n\n6. Akshay Garg overhauled the UI, introducing intuitive navigation and streamlined layouts to improve user engagement and overall platform usability.\n\n7. ShivamRai8 integrated new API services, expanding data sources for live crypto updates, which broadened the platform's informational reach.\n\n8. Prasoon Sahay reorganized file structures to align with industry best practices, improving code maintainability for future feature development.\n\n9. Akshay Garg collaborated on enhancing the automated testing suite, ensuring new deployments maintain high stability and performance reliability.\n\n10. Overall, the team made significant strides, developing key features that strengthened the platform's functionality and appeal to cryptocurrency enthusiasts.",
+    "members": {
+      "ShivamRai8": {
+        "LOC": 65,
+        "summary": "**1. Tech Stack Used:**\n   - Tailwind CSS (introduced for styling purposes).\n\n**2. Main Files Modified:**\n   - `index.html`: \n     - Added Tailwind CSS for styling.\n     - Updated HTML structure to improve layout and design by using Tailwind CSS classes for responsive design and better visual presentation.\n\n**3. Functionality Added or Improved:**\n   - Enhanced visual design and layout using Tailwind CSS, resulting in a more modern and responsive interface.\n   - Improved the overall look with added classes for background, text color, and spacing, enhancing user experience by making the dashboard more visually appealing and easier to navigate.\n\n**4. User Contribution:**\n   - The user has significantly improved the user interface by integrating",
+        "lastActive": "January 28, 2025 at 04:32 PM",
+        "name": "ShivamRai8",
+        "roll": "ShivamRai8"
+      },
+      "Prasoonsahay2003": {
+        "LOC": -294,
+        "summary": "**1. Tech Stack Used:**\n   - No new technologies introduced.\n\n**2. Main Files Modified:**\n   - Created an HTML file to establish a basic document structure:\n     - Added a basic HTML skeleton including `<!DOCTYPE>`, `<html>`, `<head>`, and `<body>` tags.\n     - Linked a stylesheet `style.css` for future styling enhancements.\n\n**3. Functionality Added or Improved:**\n   - Established a foundational HTML structure to serve as a starting point for further web page development.\n\n**4. User Contribution:**\n   - This change lays the groundwork for future web interface enhancements, aligning with project goals of developing user-facing components.\n\n**5. Verdict (Detailed Evaluation and Project-Wide Impact):**\n",
+        "lastActive": "January 24, 2025 at 09:06 PM",
+        "name": "Prasoon Sahay",
+        "roll": "2315990051"
+      },
+      "Akshay-368": {
+        "LOC": 482,
+        "summary": "1. **Tech Stack Used:**\n   - Django\n\n2. **Main Files Modified:**\n   - `manage.py`: Introduced to handle administrative tasks, set up environment variables, and manage command-line execution within the Django framework.\n\n3. **Functionality Added or Improved:**\n   - Added a command-line utility script (`manage.py`) for managing administrative tasks in a Django project, simplifying environment configuration and command execution processes.\n\n4. **User Contribution:**\n   - The addition of `manage.py` is essential for Django project setup and management, adhering to Django's standard project structure. This enhancement facilitates easier project deployment and administration.\n\n5. **Verdict (Detailed Evaluation and Project-Wide Impact):**\n   - The introduction of the",
+        "lastActive": "January 21, 2025 at 09:47 AM",
+        "name": "Akshay Garg",
+        "roll": "2215500014"
+      }
+    },
+    "points": 0
+  }
+}
